@@ -1,0 +1,247 @@
+.searchbar_form {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.link_icon {
+    width: 30px;
+    height: 30px;
+}
+
+.searchbar_input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+.searchbar_btn {
+    height: 5%;
+    width: 8%;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.searchbar_btn:hover {
+    background-color: #0056b3;
+}
+
+.link_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; 
+    height: 40px; 
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.8s ease;
+    overflow: hidden; 
+    white-space: nowrap; 
+    flex-shrink: 0; 
+    border: none;
+
+}
+
+@media (max-width: 480px) {
+    .searchbar_form {
+        margin-left: 5%;
+        margin-right: 5%;
+        gap: 5px;
+        padding: 3px;
+    }
+
+    .link_icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .searchbar_input {
+        padding: 5px;
+    }
+
+    .searchbar_btn {
+        height: 10%;
+        width: 15%;
+    }
+
+    .link_btn {
+        width: 30px; 
+        height: 30px; 
+    }
+    .demo {
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-bottom: 20%;
+
+    }
+}
+
+.browse_history {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #0a0a69;
+    border-radius: 10px;
+    overflow-y: auto;
+    max-height: 400px;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.1);
+}
+
+.link_card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #001c82;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.link_card:hover {
+    background-color: #11112b;
+}
+
+.copy_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* fixed width */
+    height: 40px; /* fixed height */
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    overflow: hidden; /* added this line */
+    white-space: nowrap; /* added this line */
+    flex-shrink: 0; /* added this line */
+}
+
+.copy_btn:hover {
+    background-color: #0056b3;
+}
+
+.copy_icon {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+}
+
+.copy_url {
+    flex-grow: 1;
+    font-family: 'Arial', sans-serif;
+    color: #fcfdff;
+    font-weight: 500;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.display_result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#0a0a69 ;
+
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.1);
+}
+
+.loader_img {
+    width: 50px;
+    height: 50px;
+}
+
+.error_text {
+    color: #dc3545;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.error {
+    font-weight: bold;
+}
+
+.article_summary {
+    width: 95%;
+    padding: 20px;
+    background-color: #0a0a69;
+    border-radius: 10px;
+
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.1);
+}
+
+.header_summary {
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.summary {
+    font-weight: bold;
+}
+
+.summary_box {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #001c82;
+    border-radius: 5px;
+
+}
+
+.summary_text {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+@media (max-width: 480px) {
+    .summary_text {
+       font-size: 18px;
+   
+}
+}
+.demo{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    
+}
+
+@media (max-width: 480px) {
+    .demo {
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
+}
+
+@media (max-width: 768px) {
+    .demo {
+        margin-left: 5%;
+        margin-right: 5%;
+    
+    }
+}

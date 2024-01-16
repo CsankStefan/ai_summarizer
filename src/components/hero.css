@@ -1,0 +1,113 @@
+.navbar {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.logo {
+    height: 100%;
+    width: 50px;
+    float: left;
+}
+
+
+.logo_text{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    font-family: 'Arial', sans-serif;
+
+}
+
+@media (max-width: 768px) {
+    .logo_text {
+        font-size: 30px;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    .logo_text {
+        width: 30px;
+    }
+}
+
+.head_text {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+@media (max-width: 768px) {
+    .head_text {
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        margin: 10px;
+        font-family: 'Arial', sans-serif;
+        text-align: center;
+    
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    .head_text {
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        margin: 10px;
+        font-family: 'Arial', sans-serif;
+        text-align: center;
+    
+    }
+}
+
+.desc{
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    font-family: 'Arial', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+@media (max-width: 768px) {
+    .desc {
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        margin: 10px;
+        font-family: 'Arial', sans-serif;
+        text-align: center;
+    
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    .desc {
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        margin: 10px;
+        font-family: 'Arial', sans-serif;
+        text-align: center;
+    
+    }
+}
